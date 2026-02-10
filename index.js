@@ -14,6 +14,10 @@ app.get('/contact', (req, res) => {
   res.send('This is the contact page.');
 });
 
+app.get('/blog', (req, res) => {
+  res.send('This is the blog page.');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });     
